@@ -4,16 +4,21 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "dev":"webpack"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "lodash-es": "^4.17.21",
+    "marked": "^4.0.18",
     "register-service-worker": "^1.7.2",
     "vue": "^3.2.13"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-pwa": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }
